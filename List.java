@@ -1,10 +1,10 @@
 
-public interface List {
+public interface List<T> {
 	
-	public void add(Object obj);
-	public void add(int pos, Object obj);
-	public Object get(int pos);
-	public Object remove(int pos);
+	public void add(T item);
+	public void add(int pos, T item);
+	public T get(int pos);
+	public T remove(int pos);
 	public int size();
 
 }
