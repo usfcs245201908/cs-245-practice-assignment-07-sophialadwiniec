@@ -173,7 +173,7 @@ public class Practice07Test {
 		} else if (time == Long.MAX_VALUE) {
 			System.out.println("[    ] Failed timing test -- there's an Exception in the ArrayList implementation.");
 		} else {
-			System.out.println("[    ] Failed timing test for ArrayList -- took " + time + "ms. (Should be less than 200ms.)");
+			System.out.println("[    ] Failed timing test for ArrayList -- took " + time + "ms. (Should be less than 20ms.)");
 		}
 		timinglist = new LinkedList<Integer>();
 		time = timingTest(timinglist);
@@ -183,7 +183,7 @@ public class Practice07Test {
 		} else if (time == Long.MAX_VALUE) {
 			System.out.println("[    ] Failed timing test -- there's an Exception in the LinkedList implementation.");
 		} else {
-			System.out.println("[    ] Failed timing test for LinkedList -- took " + time + "ms. (Should be less than 200ms.)");
+			System.out.println("[    ] Failed timing test for LinkedList -- took " + time + "ms. (Should be less than 35ms.)");
 		}
 		
 		System.out.println("Grade for this assignment: " + grade + "%");
